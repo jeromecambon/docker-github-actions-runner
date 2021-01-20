@@ -15,6 +15,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 # hadolint ignore=DL3003,DL4001
 RUN apt-get update && \
   apt-get install -y --no-install-recommends \
+    chromium-chromedriver \
     awscli \
     curl \
     tar \
